@@ -1,0 +1,91 @@
+ 
+
+.whywe-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.outreach-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+.outreach-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whywe-image-container img{
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+} 
+
+.outreach-image-container img {
+    max-width: 100%;
+    width: 700px;
+    height: 380px;
+    object-fit: cover;
+}
+
+.whywe-text-section {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.whywe {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 6px;
+}
+
+.whywe-text {
+    font-family: sans-serif;
+    padding: 6px;
+}
+
+.outreach-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.outreach-header {
+    margin-bottom: 10px;
+    padding-left: 100px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+.outreach-stats p {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .whywe-text-section, .outreach-text {
+        padding: 10px;
+    }
+
+    .whywe, .outreach-header, .outreach-stats {
+        text-align: center;
+    }
+
+    .outreach-header {
+        text-align: center;
+        padding: 10px;
+    }
+}
