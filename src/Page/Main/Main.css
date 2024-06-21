@@ -1,5 +1,6 @@
 .carousel-image-container {
     position: relative;
+    margin-top: 62px;
   }
   
   .carousel-image-container img {
@@ -48,16 +49,26 @@
       padding: 1rem;
       left: 0;
     }
+
+    .carousel-image-container img{
+      height: 270px; /* Adjusted height for small screens */
+      object-fit: cover;
+  }
   
     .carousel-caption-box h3 {
       font-size: 1.5rem;
       max-width: 300px; 
+      margin-bottom: 10px;
     }
   
     .carousel-caption-box p {
-        display: none;
+        display: block;
+        font-family: sans-serif;
+        margin-bottom: 18px;
     }
   }
+
+ 
   
   @media (max-width: 576px) {
     .carousel-caption-box {
@@ -67,11 +78,19 @@
     }
   
     .carousel-caption-box h3 {
-      font-size: 1rem;
+      font-size: 1.1rem;
+      margin-bottom: 1px;
     }
+
+    .carousel-image-container img{
+      height: 270px; /* Adjusted height for small screens */
+      object-fit: cover;
+  }
   
     .carousel-caption-box p {
-      display: none;
+       font-family: sans-serif;
+       font-size: 10px;
+       padding-bottom: 10px;
     }
   }
   

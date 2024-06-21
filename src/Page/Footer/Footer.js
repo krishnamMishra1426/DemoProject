@@ -44,43 +44,43 @@ const Footer = () => {
           </Col>
           <Col md={2} className="footer-column mb-3">
             <h3>Column One</h3>
-            <a href="#link1">Link One</a>
-            <a href="#link2">Link Two</a>
-            <a href="#link3">Link Three</a>
-            <a href="#link4">Link Four</a>
-            <a href="#link5">Link Five</a>
+            <a href="#link11">Link Eleven</a>
+            <a href="#link12">Link Twelve</a>
+            <a href="#link13">Link Twenty</a>
+            <a href="#link14">Link Twenty</a>
+            <a href="#link15">Link Twenty</a>
           </Col>
           <Col md={2} className="footer-column mb-3">
             <h3>Column Two</h3>
-            <a href="#link6">Link Six</a>
-            <a href="#link7">Link Seven</a>
-            <a href="#link8">Link Eight</a>
-            <a href="#link9">Link Nine</a>
-            <a href="#link10">Link Ten</a>
+            <a href="#link11">Link Eleven</a>
+            <a href="#link12">Link Twelve</a>
+            <a href="#link13">Link Twenty</a>
+            <a href="#link14">Link Twenty</a>
+            <a href="#link15">Link Twenty</a>
           </Col>
           <Col md={2} className="footer-column mb-3">
             <h3>Column Three</h3>
             <a href="#link11">Link Eleven</a>
             <a href="#link12">Link Twelve</a>
-            <a href="#link13">Link Thirteen</a>
-            <a href="#link14">Link Fourteen</a>
-            <a href="#link15">Link Fifteen</a>
+            <a href="#link13">Link Twenty</a>
+            <a href="#link14">Link Twenty</a>
+            <a href="#link15">Link Twenty</a>
           </Col>
           <Col md={2} className="footer-column mb-3">
             <h3>Column Four</h3>
-            <a href="#link16">Link Sixteen</a>
-            <a href="#link17">Link Seventeen</a>
-            <a href="#link18">Link Eighteen</a>
-            <a href="#link19">Link Nineteen</a>
+            <a href="#link16">Link Twenty</a>
+            <a href="#link17">Link Twenty</a>
+            <a href="#link18">Link Twenty</a>
+            <a href="#link19">Link Twenty</a>
             <a href="#link20">Link Twenty</a>
           </Col>
           <Col md={2} className="footer-column mb-3">
             <h3>Column Five</h3>
-            <a href="#link21">Link Twenty One</a>
-            <a href="#link22">Link Twenty Two</a>
-            <a href="#link23">Link Twenty Three</a>
-            <a href="#link24">Link Twenty Four</a>
-            <a href="#link25">Link Twenty Five</a>
+            <a href="#link21">Link Twenty</a>
+            <a href="#link22">Link Twenty</a>
+            <a href="#link23">Link Twenty</a>
+            <a href="#link24">Link Twenty</a>
+            <a href="#link25">Link Twenty</a>
           </Col>
         </Row>
         <hr/>
